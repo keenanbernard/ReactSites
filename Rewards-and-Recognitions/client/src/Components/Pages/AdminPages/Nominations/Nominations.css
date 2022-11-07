@@ -1,0 +1,57 @@
+.otpLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+}
+
+.otpNominationLabel {
+    font-family: Helvetica, serif;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+    padding: 0.25rem 0;
+    color: #004393;
+}
+
+.otpDivider {
+    width: 15% !important;
+}
+
+.otsLabel{
+    color: red;
+}
+
+.otsText{
+    color: #004393 !important;
+}
+
+
+.tableHeading {
+    background-color: red;
+    color: white;
+}
+
+.nomWidth {
+    width: 22%;
+}
+
+.statusWidth {
+    width: 11%
+}
+
+.otsLink {
+    text-decoration: none;
+}
+
+.tdPos {
+    text-align: center;
+}
+
+#freeSpace3 {
+    height: 10px;
+}

@@ -1,0 +1,81 @@
+.workflowSpacing{
+    margin-top: 50px !important;
+}
+
+#profile-div > div.container-fluid > div:nth-child(1) > div:nth-child(4) > div{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.workflowSelect,
+.sendBackReason {
+    width: 30%;
+    margin-left: 60% !important;
+    font-weight: bold;
+}
+
+.sendBackInfo {
+    font-size: 1rem !important;
+}
+
+#sendBack.form-control {
+    border: 1px solid hsl(0, 0%, 80%);
+}
+
+#sendBack.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #2684FF;
+    margin: -1px;
+}
+
+.sendBackInfo {
+    margin-left: 60%;
+}
+
+@media screen and (max-width: 1440px) {
+    .sendBackInfo {
+        margin-left: 47% !important;
+    }
+
+    .sendBackReason,
+    .workflowSelect {
+        width: 45% !important;
+        margin-left: 47% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1122px) {
+    .sendBackInfo {
+        margin-left: 35% !important;
+        font-size: 0.75rem !important;
+    }
+
+    .sendBackReason,
+    .workflowSelect {
+        width: 60% !important;
+        margin-left: 35% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .sendBackReason,
+    .sendBackInfo,
+    .workflowSelect {
+        margin-left: 15% !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #profile-div > div.container-fluid > div:nth-child(1) > div:nth-child(4) > div,
+    .sendBackInfo {
+        margin-left: 4% !important;
+    }
+
+    .sendBackReason,
+    .workflowSelect {
+        width: 60% !important;
+        margin-left: 4% !important;
+    }
+}

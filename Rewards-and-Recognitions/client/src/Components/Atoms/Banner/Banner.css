@@ -1,0 +1,11 @@
+.feedLabel {
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Media Queries for responsive site */
+@media screen and (max-width: 1440px) {
+    .bannerImage {
+        height: 60% !important;
+    }
+}

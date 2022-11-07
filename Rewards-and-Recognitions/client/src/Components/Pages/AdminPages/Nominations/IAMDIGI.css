@@ -1,0 +1,40 @@
+.iamdigiButton {
+    border-color: #004393 !important;
+    border-radius: 4px !important;
+    background: #004393 !important;
+    margin-left:  22% !important;
+    margin-top: 20% !important;
+    width: 50% !important;
+}
+
+.iamdigiButton:hover {
+    background: navy !important;
+}
+
+#profile-div > div.container-fluid > div:nth-child(2) > div:nth-child(1) > button > a,
+#profile-div > div.container-fluid > div:nth-child(2) > div:nth-child(2) > button > a{
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.iadLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 40.6% !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.iadsLabel{
+    color: red;
+}
+
+.iadText{
+    color: #004393 !important;
+}

@@ -1,0 +1,27 @@
+#programDiv{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.programImage{
+    margin: 0 auto;
+}
+
+.firstSentence{
+    color: #004393;
+    margin-left: 12%;
+    margin-top: 1% !important;
+    font-size: 18px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+}
+
+/*!* Media Queries for responsive site *!*/
+@media screen and (max-width: 1920px) {
+    .firstSentence{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 1% !important;
+    }
+}

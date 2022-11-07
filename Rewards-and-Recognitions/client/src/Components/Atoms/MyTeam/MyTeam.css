@@ -1,0 +1,34 @@
+.myTeamTitle{
+    text-align: left !important;
+    font-family: Helvetica, serif;
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
+
+.myTeamTitleText {
+    color: #004393 !important;
+}
+
+.teamDivider{
+    width: 37%
+}
+
+.teamMembers{
+    font-family: Helvetica, serif;
+}
+
+.defSpacing {
+    height: 5px;
+}
+
+#recogEventArea > div:nth-child(3){
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+@media screen and (max-width: 1440px) {
+    .teamDivider{
+        width: 54.5%
+    }
+}

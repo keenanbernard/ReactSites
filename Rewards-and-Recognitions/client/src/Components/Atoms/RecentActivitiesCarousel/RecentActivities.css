@@ -1,0 +1,90 @@
+.cardBackground {
+    box-shadow: none !important;
+    border-color: white !important;
+}
+
+.cardBackground card{
+    background: white !important;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+    top: 88%;
+}
+
+/* Media Query */
+@media screen and (max-width: 720px) {
+    .cardBackground,
+    .activitiesLabel {
+        display: none !important;
+    }
+}
+
+.swiperLabel {
+    border-radius: 20px;
+    color: white !important;
+    position: absolute !important;
+    margin-top: 260px;
+    background-color: #28282B;
+    padding-bottom: 3px !important;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+}
+
+.noHighFives {
+    color: red;
+    font-family: Helvetica, serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#profile-div > div.container-fluid > div > div.col-md-8 > div.cardBackground.card > div > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+}
+
+
+@media screen and (min-width: 1600px) {
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+        top: 92% ;
+    }
+}
+
+@media screen and (max-width: 1588px) {
+    .swiperLabel {
+        /*font-size: 0.80rem;*/
+        margin-top: 180px;
+        position: absolute !important;
+    }
+}
+

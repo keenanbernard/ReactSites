@@ -1,0 +1,101 @@
+#milestoneDiv{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.milestoneImage{
+    margin-left: 20%;
+}
+
+.firstParagraph{
+    color: #004393;
+    margin-left: 12%;
+    margin-top: 1% !important;
+    font-size: 18px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+}
+
+.secondParagraph{
+    color: #004393;
+    margin-left: 8%;
+    margin-top: -1% !important;
+    font-size: 18px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+}
+
+.thirdParagraph{
+    color: #004393;
+    margin-left: 36%;
+    margin-top: -1% !important;
+    font-size: 18px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+}
+
+.fourthParagraph{
+    color: #004393;
+    margin-left: 35.5%;
+    margin-top: 0.2% !important;
+    font-size: 18px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+}
+
+.milestoneOnHover:hover{
+    cursor: pointer;
+}
+
+.youtubeText{
+    color: #004393;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 60% !important;
+    margin-top: 2% ;
+}
+
+.milestoneRow {
+    display: flex;
+    overflow: hidden;
+}
+
+.milestoneColumn {
+    margin: auto !important;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.milestoneColumn2 {
+    margin: auto !important;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+
+/*!* Media Queries for responsive site *!*/
+@media screen and (max-width: 1920px) {
+    .firstParagraph,
+    .secondParagraph,
+    .thirdParagraph,
+    .fourthParagraph {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 1% !important;
+    }
+
+    .secondParagraph,
+    .thirdParagraph {
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .youtubeText{
+        margin-bottom: 0;
+        margin-left: 65%;
+        margin-top: 4%;
+    }
+}

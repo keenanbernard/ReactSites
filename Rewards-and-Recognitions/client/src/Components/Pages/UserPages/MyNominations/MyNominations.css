@@ -1,0 +1,38 @@
+.nomHistoryLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 2% !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.nomLabel {
+    color: red;
+}
+
+.nomCentralText{
+    color: #004393 !important;
+}
+
+.nomDivider{
+    width: 15% !important;
+    margin-left: 3.5% !important;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.qNomID {
+    text-align: center;
+}
+
+.myNomTr td {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}

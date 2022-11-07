@@ -1,0 +1,56 @@
+#floatingTextarea2:focus,
+#formFile:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #2684FF;
+}
+
+#formFile:focus {
+    margin: -2px;
+}
+
+/*#otsSubmit {*/
+/*    padding-right: 0 !important;*/
+/*}*/
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+    background-color: #ccc !important;
+    color: #292929 !important;
+    border-color: #ccc !important;
+    cursor: not-allowed;
+}
+
+.errorPos,
+.infoMessage {
+    margin-top: -8px !important;
+}
+
+.errorBorder__control,
+.errorBorder {
+    border: 2px solid red !important;
+}
+
+.error-text {
+    color: red;
+    font-weight: 500;
+}
+
+.normalText {
+    color: black;
+}
+
+.nomTextInfo {
+    font-size: 0.80rem;
+}
+
+.nomCategory {
+    font-size: 0.9rem
+}
+
+@media screen and (max-width: 1440px) {
+    .teamDivider{
+        width: 54.5%
+    }
+}

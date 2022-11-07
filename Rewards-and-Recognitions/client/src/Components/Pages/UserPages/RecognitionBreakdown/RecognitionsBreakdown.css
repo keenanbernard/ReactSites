@@ -1,0 +1,48 @@
+.column {
+    margin: auto !important;
+}
+
+.recogBreakdownLabel {
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+}
+
+.recogsBreakdowLabel {
+    color: red;
+}
+
+.recogBreakdownText{
+    color: #004393 !important;
+}
+
+.recogBreakdownLabel{
+    text-align: left !important;
+    margin-left: 2% !important;
+    margin-top: .5% !important;
+}
+
+
+
+.recogBreakdownDivider {
+    width: 15% !important;
+    margin-left: .7% !important;
+}
+
+.row {
+    display: flex;
+    overflow: hidden;
+}
+
+.column {
+    flex: 16.66%;
+    padding: 5px;
+}
+
+.mainrow{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}

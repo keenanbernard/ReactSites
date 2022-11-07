@@ -1,0 +1,13 @@
+#basic-nav-dropdown > div > img{
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+}
+
+.biReports{
+  text-align: center;
+}
+
+.biReports:hover{
+    cursor: pointer;
+}

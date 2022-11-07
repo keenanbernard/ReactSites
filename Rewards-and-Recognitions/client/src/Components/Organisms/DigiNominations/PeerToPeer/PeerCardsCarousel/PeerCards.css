@@ -1,0 +1,17 @@
+.carousel-indicators {
+    padding-bottom: 40px !important;
+}
+
+.modal-title {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.peerCardDesc {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.peerCardHeight {
+    min-height: 262.125px;
+}

@@ -1,0 +1,21 @@
+.nominationLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0% !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nomLabels {
+    color: red;
+}
+
+.nomTexts{
+    color: #004393 !important;
+}

@@ -1,0 +1,41 @@
+.userCardSpacing {
+    height: 20px;
+}
+
+#freeSpace2 {
+    height: 500px !important;
+}
+
+.peerColWidth {
+    width: 20% !important;
+}
+
+#profile-div > div.container-fluid > div > div.col-md-10 > div.card > div > div.table-responsive > table > thead > tr{
+    background-color: #004393 !important;
+}
+
+.filterUser {
+    float: right;
+    width: 50% !important;
+}
+
+.filterUserInput:active,
+.filterUserInput:focus {
+    box-shadow: none !important;
+    border: 2px solid #2684FF;
+    margin: -1px;
+}
+
+.ppLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}

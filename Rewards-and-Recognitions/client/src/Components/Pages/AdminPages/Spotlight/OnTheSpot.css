@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+/*Recent Spotlight styling*/
+.otpLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.otpNominationLabel {
+    font-family: Helvetica, serif;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+    padding: 0.25rem 0;
+    color: #004393;
+}
+
+.otpDivider {
+    width: 15% !important;
+}
+
+.otsLabel{
+    color: red;
+}
+
+.otsText{
+    color: #004393 !important;
+}
+
+.otsLink {
+    color: #000
+}
+
+.otsLink:hover {
+    color: #000;
+}
+
+.tableHeading {
+    background-color: #004393 !important;
+    color: white;
+}
+
+.nomWidth {
+    width: 22%;
+}
+
+.statusWidth {
+    width: 11%
+}
+
+.otsLink {
+    text-decoration: none;
+}
+
+.tdPos {
+    text-align: center;
+}
+
+.noDepartment {
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.17rem;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+}
+

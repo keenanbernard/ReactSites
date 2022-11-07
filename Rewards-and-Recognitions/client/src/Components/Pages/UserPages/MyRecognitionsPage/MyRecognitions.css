@@ -1,0 +1,56 @@
+.recogHistoryLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 5% !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.recogLabel {
+    color: red;
+}
+
+.recogCentralText{
+    color: #004393 !important;
+}
+
+.recogDivider{
+    width: 15% !important;
+    margin-left: 3.5% !important;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.recogImage {
+    flex: 33.33% ;
+    padding: 1% ;
+    margin-bottom: 1%;
+}
+
+/*MyRecognitions Table styling*/
+
+.peerNomID {
+    text-align: center;
+}
+
+.peerNomID:hover {
+    /*color: #FFF !important;*/
+    cursor: pointer;
+}
+
+.myHighFiveTr td {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+/*.table-hover tbody tr:hover td {*/
+/*    background: teal;*/
+/*    color: white;*/
+/*}*/

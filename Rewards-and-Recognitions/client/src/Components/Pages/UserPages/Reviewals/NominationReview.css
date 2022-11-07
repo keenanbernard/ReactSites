@@ -1,0 +1,49 @@
+.nominationReviewLabel{
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+    margin-left: 5% !important;
+    margin-top: .5% !important;
+    text-align: left !important;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.reviewLabel {
+    color: red;
+}
+
+.reviewText{
+    color: #004393 !important;
+}
+
+.reviewDivider{
+    width: 15% !important;
+    margin-left: 3.5% !important;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.reviewNomID:hover {
+    /*color: #FFF !important;*/
+    cursor: pointer;
+}
+
+.reviewTr td {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.nomReviewLink{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nomReviewLink:hover{
+    color: black;
+}

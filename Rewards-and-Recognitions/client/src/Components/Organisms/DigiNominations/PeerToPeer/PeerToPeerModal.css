@@ -1,0 +1,48 @@
+.peerCardBody {
+    margin-bottom: -10px;
+}
+
+.modal-header,
+.modal-footer {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.modal-title {
+    margin: auto;
+}
+
+.modalRecBtn {
+    border-radius: 10px !important;
+}
+
+.submitPeerToPeer {
+    border-color: #004393 !important;
+    border-radius: 4px !important;
+    background: #004393 !important;
+}
+
+.submitPeerToPeer:hover {
+    background: navy !important;
+}
+
+.cardSpacing {
+    height: 20px;
+}
+
+.userCardSpacing {
+    height: 20px !important;
+}
+
+.lp-copy-sel__option, .lp-copy-sel__single-value{
+    white-space: pre-wrap !important;
+}
+
+.modal-open[style] {
+    padding-right: 0 !important;
+}
+
+.alertMessage {
+    color: red
+}
+

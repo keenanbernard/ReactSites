@@ -1,0 +1,202 @@
+.landing-page{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.activitiesLabel{
+    font-weight: 800;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.activitiesDivider{
+    width: 13.5%
+}
+
+.recogCentralText,
+.recentActivitiesText{
+    color: #004393 !important;
+}
+
+#recogEventArea > div.userProfile.card > div.userProfilePhoto > div > img {
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 27px;
+    margin-left: 11px;
+    transform: rotate(-45deg);
+    width: 80%;
+}
+
+#recogEventArea > div.userProfile.card > div.card-body > div > div.row > div.colNominationsReceived.col > a{
+    text-decoration: none;
+}
+
+.userProfilePhoto {
+    margin: 22px auto;
+    border: 4px solid #004393;
+    border-radius: 27px;
+    transform: rotate(45deg);
+    width: 115px;
+    height: 115px;
+
+}
+
+.userProfile.card {
+    border-radius: 4px !important;
+}
+
+.userRecognitions {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.currentUserName {
+    color: #004393;
+    font-weight: bold;
+}
+
+.userCardSpacing {
+    height: 75px;
+}
+
+.colNominationsGiven,
+.colNominationsReceived {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+
+.nominationsText {
+    font-size: 11px;
+    margin: 17px 0 0 4px;
+}
+
+.nomGivenCount,
+.nomReceivedCount {
+    color: #004393 !important;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.recogCentralLabel,
+.userFeedText,
+.upcomingEvents {
+    text-align: center;
+}
+
+.recogCentralLabel {
+    font-family: Helvetica, serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+    margin-bottom: 0 !important;
+}
+
+.recogLabel {
+    color: red;
+}
+
+.publishNote:hover,
+.nominationButton:hover{
+    background-color: navy !important;
+    border-color: navy !important;
+}
+
+/*.nomReceivedCount:hover{
+    color: red !important;
+}*/
+
+.nominationButton {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #004393 !important;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#fistNominationButton {
+    margin-top: 0;
+}
+
+.defSpacing {
+    height: 30px;
+}
+
+.card {
+    background: #ECECEC !important;
+    border-radius: 0 !important;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 2px, rgb(15 91 206 / 10%) 0 2px 32px;
+}
+
+.userNote {
+    border-radius: 10px !important;
+    margin-bottom: -5px;
+}
+
+.userNote:focus {
+    box-shadow: none !important;
+    border-color: #0969da !important;
+}
+
+.recognitionsLabel {
+    font-weight: bold;
+    font-family: Helvetica, serif;
+}
+
+.recognitionsCount{
+    font-family: Helvetica, serif;
+}
+
+.publishNote{
+    border-radius: 4px !important;
+    background: #004393 !important;
+    border-color: #0969da !important;
+    font-family: Helvetica, serif;
+}
+
+.userPanel {
+    width: 12% !important;
+}
+
+.recogCentral,
+.userFeed,
+.upcomingEvents {
+    min-height: 300px;
+}
+
+.card-header {
+    background-color: transparent !important;
+    border-bottom: 0 !important;
+}
+
+.recogBody {
+    transform: translate(0,-10%);
+}
+
+#recogEventArea {
+    margin-top: 15px;
+}
+
+.publishNote {
+    display: flex !important;
+    margin: 0 auto !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Media Queries for responsive site */
+@media screen and (max-width: 1440px) {
+    .activitiesDivider{
+        width: 20%
+    }
+
+}/* Media Queries for responsive site */
+@media screen and (max-width: 1440px) {
+    .activitiesLabel{
+        margin-top: 10%;
+    }
+}
